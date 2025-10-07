@@ -26,7 +26,6 @@ app.use(express.json());
 app.use((req, res, next) => {
   res.header(
     "Access-Control-Allow-Origin",
-    "https://triviaminefield-risshab-singlas-projects.vercel.app"
   );
   res.header(
     "Access-Control-Allow-Headers",
