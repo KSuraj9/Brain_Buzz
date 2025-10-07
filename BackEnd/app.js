@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://triviaminefield-risshab-singlas-projects.vercel.app",
+    origin: " ",
   })
 );
 app.use(express.json());
