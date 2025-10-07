@@ -9,7 +9,7 @@ function NavBar({ userSettings }) {
         <img width="50px" src="/images/logo.svg" alt="logo"></img>
         {screenSize.width > 650 ? (
           <p className="text-3xl text-white  font-mono font-extrabold mt-2 pl-2">
-            Trivia MineField
+            Brain Buzz
           </p>
         ) : (
           ""
